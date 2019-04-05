@@ -83,7 +83,7 @@ if __name__ == '__main__':
             webbrowser.open('www.yahoo.com')
 
         elif "what\'s up" in query or 'how are you' in query:
-            stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nince and full of energy']
+            stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nice and full of energy']
             speak(random.choice(stMsgs))
 
         elif 'email' in query:
